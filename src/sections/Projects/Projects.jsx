@@ -10,6 +10,8 @@ import Weather from '../../assets/weather.png';
 import Restaurant from '../../assets/restaurant.png';
 import Tictactoe from '../../assets/xox.png';
 import Calculator from '../../assets/calculator.png';
+import CV from '../../assets/cv2.png';
+import Npm from '../../assets/npm.png';
 
 function Projects() {
   return (
@@ -20,6 +22,11 @@ function Projects() {
           src={Ecommerce}
           link="https://github.com/semihmertdev/e-commerce-app"
           h3="E-Commerce"
+        />
+        <ProjectCard
+          src={CV}
+          link="https://github.com/semihmertdev/CV-APP"
+          h3="CV App"
         />
         <ProjectCard
           src={Memorycard}
@@ -65,6 +72,16 @@ function Projects() {
           src={Calculator}
           link="https://github.com/semihmertdev/Calculator"
           h3="Calculator"
+        />
+        <ProjectCard
+          src={Npm}
+          link="https://github.com/semihmertdev/dropdown-menu-sm"
+          h3="Dropdown Menu NPM Package"
+        />
+        <ProjectCard
+          src={Npm}
+          link="https://github.com/semihmertdev/image-carousel-sm"
+          h3="Image Carousel NPM Package"
         />
       </div>
     </section>

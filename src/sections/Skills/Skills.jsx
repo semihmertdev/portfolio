@@ -21,19 +21,21 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Bootstrap"/>
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skill="Sass/SCSS" />
+        <SkillList src={checkMarkIcon} skill="Styled Components" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Vite" />
         <SkillList src={checkMarkIcon} skill="Webpack" />
         <SkillList src={checkMarkIcon} skill="Babel" />
+        
       </div><hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Jest" />
         <SkillList src={checkMarkIcon} skill="Vitest" />
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="GitHub" />
+        <SkillList src={checkMarkIcon} skill="NPM" />
       </div>
     </section>
   );
